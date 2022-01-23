@@ -1,5 +1,5 @@
-var faker = require('Faker')
-var cpf = require('gerador-validador-cpf')
+var faker = require('Faker-br');
+var cpf = require('gerador-validador-cpf');
 
 export default {
 
