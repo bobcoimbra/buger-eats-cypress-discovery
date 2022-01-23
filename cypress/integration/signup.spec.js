@@ -1,6 +1,6 @@
 import SignupPage from '../pages/SignupPage'
 import signup from '../pages/SignupPage'
-import signupFactory from '../factories/SignupFactory'
+import signupFactory from '../factories/signupFactory'
 
 describe('Signup', () => {
     it('User should be deliver', function () {
