@@ -1,3 +1,7 @@
-#buger-eats-cypress-discovery
+# buger-eats-cypress-discovery
 
 Projeto de testes de aceitação do app BugerEats
+
+
+
+https://qaninja.academy/
