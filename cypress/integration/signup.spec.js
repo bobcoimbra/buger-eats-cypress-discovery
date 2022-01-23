@@ -1,5 +1,5 @@
 import signup from '../pages/SignupPage'
-import signupFactory from '../factories/signupFactory'
+import signupFactory from '../factories/SignupFactory'
 
 describe('Signup', () => {
     it('User should be deliver', function () {
@@ -39,7 +39,7 @@ describe('Signup', () => {
         signup.alertMessageShouldBe('Oops! Email com formato inválido.')
     })
 
-    context.only('Required fields', function () {
+    context('Required fields', function () {
 
         const messages = [
             { field: 'name', output: 'É necessário informar o nome' },
