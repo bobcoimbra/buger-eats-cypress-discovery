@@ -1,4 +1,3 @@
-import SignupPage from '../pages/SignupPage'
 import signup from '../pages/SignupPage'
 import signupFactory from '../factories/signupFactory'
 
@@ -26,7 +25,7 @@ describe('Signup', () => {
         signup.go()
         signup.fillForm(deliver)
         signup.submit()
-        signup.modalContentShouldBeError('Oops! CPF inválido')
+        signup.alertMessageShouldBe('Oops! CPF inválido')
     })
     it('Email Invalid', function () {
 
@@ -37,10 +36,10 @@ describe('Signup', () => {
         signup.go()
         signup.fillForm(deliver)
         signup.submit()
-        signup.modalContentShouldBeError('Oops! Email com formato inválido.')
+        signup.alertMessageShouldBe('Oops! Email com formato inválido.')
     })
 
-    context('Required fields', function () {
+    context.only('Required fields', function () {
 
         const messages = [
             { field: 'name', output: 'É necessário informar o nome' },
@@ -60,7 +59,7 @@ describe('Signup', () => {
 
         messages.forEach(function(msg){
             it(`${msg.field} is required`, function(){
-                SignupPage.modalContentShouldBeError(msg.output)
+                signup.alertMessageShouldBe(msg.output)
             })
         })
     })
