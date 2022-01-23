@@ -24,7 +24,6 @@ export default {
             delivery_method: 'Bike Elétrica',
             cnh: 'cnh-digital.jpg'
         }
-
         return data
     }
 }
