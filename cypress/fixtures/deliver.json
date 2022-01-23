@@ -1,0 +1,53 @@
+{
+    "signup":{
+        "name":"Alex",
+        "cpf":"00000014141",
+        "email":"alex@email.com",
+        "whatsapp":"2199999999",
+        "address":{
+            "postalcode":"21911120",
+            "street":"Rua Miritiba",
+            "number":"171",
+            "details":"apto 101fds",
+            "district":"Freguesia (Ilha do Governador)",
+            "city_state":"Rio de Janeiro/RJ"
+
+        },
+        "delivery_method":"Bike Elétrica",
+        "cnh":"cnh-digital.jpg"
+    },
+    "cpf_inv":{
+        "name":"Alexandre",
+        "cpf":"x00000014141aa",
+        "email":"alexandre@email.com",
+        "whatsapp":"1199999999",
+        "address":{
+            "postalcode":"21911120",
+            "street":"Rua Miritiba",
+            "number":"171",
+            "details":"apto 101fds",
+            "district":"Freguesia (Ilha do Governador)",
+            "city_state":"Rio de Janeiro/RJ"
+
+        },
+        "delivery_method":"Bike Elétrica",
+        "cnh":"cnh-digital.jpg"
+    },
+    "email_inv":{
+        "name":"andre",
+        "cpf":"00000014141",
+        "email":"alexandre@.com",
+        "whatsapp":"3199999999",
+        "address":{
+            "postalcode":"21911120",
+            "street":"Rua Miritiba",
+            "number":"171",
+            "details":"apto 101fds",
+            "district":"Freguesia (Ilha do Governador)",
+            "city_state":"Rio de Janeiro/RJ"
+
+        },
+        "delivery_method":"Bike Elétrica",
+        "cnh":"cnh-digital.jpg"
+    }
+}
