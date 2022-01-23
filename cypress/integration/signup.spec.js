@@ -1,5 +1,5 @@
 import signup from '../pages/SignupPage'
-import signupFactory from './signupFactory'
+import signupFactory from '../../factories/signupFactory'
 
 describe('Signup', () => {
     it('User should be deliver', function () {
@@ -74,6 +74,5 @@ describe('Signup', () => {
     //     SignupPage.modalContentShouldBeError('É necessário informar o número do endereço')
     //     SignupPage.modalContentShouldBeError('Selecione o método de entrega')
     //     SignupPage.modalContentShouldBeError('Adicione uma foto da sua CNH')
-
-    // })
+    //}}
 })
